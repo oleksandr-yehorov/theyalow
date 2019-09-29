@@ -1,0 +1,470 @@
+/*HEADER SECTION*/
+.header {
+    background: url('./images/bg-header.png');
+    background-size: 100%;
+    box-shadow: inset 0em -2px rgba(0,0,0,0.25);
+    position: relative;
+    min-height: 560px;
+}
+
+.header_logo_plus_navbar {
+    width: 1020px;
+    margin: 0 auto;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    width: 340px;
+    height: 93px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    display: flex;
+}
+
+.header_logo_text {
+    font-size: 41px;
+}
+
+/*UPPER NAVIGATION BAR*/
+
+.main_nav {
+    width: 452px;
+    height: 40px;
+    display: flex;
+    background: #f5c506;
+    color:  #9b7d08;
+    box-shadow: -4px -4px 0px 3px rgba(245,197,6,0.5), -8px -8px 0px 6px rgba(245,197,6,0.4);
+    font-size: 17px;
+    font-family: "Segoe WP";
+}
+
+/*SECTION OF MAIN NAVIGATION BAR*/
+
+.main_nav_section {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SECTION1 OF MAIN NAVBAR*/
+
+.mns1 {
+    width: 172px;
+}
+
+/*SECTION2 OF MAIN NAVBAR*/
+
+.mns2 {
+    width: 133px;
+    border-right: 1px solid #b99403;
+    border-left: 1px solid #b99403;
+}
+
+/*SECTION3 OF MAIN NAVBAR*/
+
+.mns3 {
+    width: 147px;
+}
+
+/*MAIN NAVBAR IMAGES*/
+
+.mns_img {
+    margin-right: 8px;
+}
+
+/*HOVER NAVBAR SECTION*/
+
+.main_nav_section:hover {
+    color: #d3442b;
+    text-decoration: underline;
+}
+
+.figure {
+    width: 340px;
+    height: 210px;
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+/*CONTENT OF HEADER SECTION*/
+
+.header_wrapper {
+    width: 1020px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px auto 66px;
+    text-align: center;    
+}
+
+.yellow_text, .white_text {
+    font-family: "Asap";
+    font-size: 63px;
+    color: #f5c506;
+    font-weight: 400;
+}
+
+.yellow_text {
+    color: #f5c506;
+}
+
+.white_text {
+    color: #ffffff;
+}
+
+.left_scroll {
+    position: absolute;
+    top: 300px;
+}
+
+.right_scroll {
+    position: absolute;
+    top: 290px;
+    right: 0px;
+}
+
+/*ICON AREA SECTION*/
+
+#icons {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 300;
+    font-family: "Segoe UI";
+    color: #000000;
+    background: url("./images/iconbackground.png");   
+}
+
+.figure_img {
+    margin-bottom: 20px;
+}
+
+.figure:hover {
+    color: #d3442b;
+    text-decoration: underline;
+}
+
+/* YELLOW SECTIION */
+
+.section_yellow {
+    min-height: 500px;
+    background: url('./images/bg-y.png');
+    background-size: 100%;
+}
+
+/* SECTION YELLOW TEXT */
+
+.section_yellow_text {
+    width: 1020px;
+    margin: 0 auto;
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+/* BLOCKS OF YELLOW SECTION */
+
+.section {
+    display: flex;
+    width: 1020px;
+    margin: 0 auto 40px;
+    flex-direction: column;
+}
+
+.section_yellow_blocks {
+    width: 1020px;
+    margin: 0 auto;
+    padding-bottom: 0; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_yellow_blocks_1_2 {
+    display: flex;
+}
+
+.section_yellow_block1 {
+    width: 336px;
+    height: 230px;
+    background: url('./images/layer22.png');
+}
+
+.section_yellow_block1 p {
+    font-size: 29px;
+    width: 280px;
+    margin: 20px 0 0 30px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+}
+
+.plus_block1 {
+    display: flex;
+    width: 330px;
+    justify-content: flex-end;
+}
+
+.plus_block3 {
+    display: flex;
+    width: 324px;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.plus_block1 img, .plus_block3 img {
+    width: 11px;
+}
+
+.plus_block1:hover, .plus_block3:hover {
+    cursor: pointer;
+}
+
+.section_yellow_block2 {
+    width: 313px;
+    height: 230px;
+}
+
+.section_yellow_block3 {
+    width: 330px;
+    height: 230px;
+    background: url('./images/layer22.png');
+    text-align: right;
+}
+
+.section_yellow_block3 p {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    margin: 20px 10px 0 0;
+}
+
+.twitter {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.twitter_image {
+    width: 160px;
+}
+
+.section_yellow_block_down {
+    background: #ddb101;
+    width: 110px;
+    height: 85px;
+    text-align: center;
+}
+
+.section_yellow_block_down .text_25 {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;   
+}
+
+.date {
+    padding-top: 10px;    
+}
+
+.section_yellow_block_down .text_april {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    text-transform: uppercase;
+}
+
+/* RANGE INPUT SLIDER*/
+
+.range_input_slider {
+    margin: 0 auto;
+    width: 920px;
+    padding-bottom: 20px;
+}
+
+input[type=range] {
+    height: 14px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 900px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 900px;
+    height: 14px;
+    cursor: pointer;
+    background: #fbe797;
+    border-radius: 14px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: 0px solid #000000;
+    height: 17px;
+    width: 200px;
+    border-radius: 12px;
+    background: #ec9e03;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #fbe797;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 14px;
+    cursor: pointer;
+    background: #ec9e03;
+    border-radius: 12px;
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 14px;
+    width: 200px;
+    border-radius: 12px;
+    background: #ec9e03;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 14px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #ec9e03;
+    border-radius: 28px;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #ec9e03;
+    border-radius: 28px;
+}
+
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    height: 14px;
+    width: 200px;
+    background: #ec9e03;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #ec9e03;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #ec9e03;
+}
+
+/* END OF RANGE INPUT SLIDER */
+
+/* SECTION GRAY */
+
+.section_gray {
+    min-height: 500px;
+    background: url('./images/gray_bg.png');
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_gray_text {
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    height: 105px;
+    text-transform: uppercase;
+}
+
+.section_gray_wrapper {
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.section_gray_list {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.gray-list li {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.gray-list {
+    list-style-image:url('./images/list_marker.png')
+}
+
+/*FOOTER*/
+
+.footer {
+    min-height: 65px;
+    background: #4c4c4c;
+}
+
+.footer_wrapper {
+    width: 1020px;
+    margin: 0 auto;
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer_logo {
+    padding-right: 7px;
+}
+
+.footer_text {
+    font-size: 29px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 0;
+    height: 45px;
+}
